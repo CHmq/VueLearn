@@ -51,7 +51,7 @@ export default {
       }
     },
     toBuy() {
-      if (!this.isSelect) {
+      if (!this.isSelect ) {
         this.$toast.show("未选中产品");
       }
     }
